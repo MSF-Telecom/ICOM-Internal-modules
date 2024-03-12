@@ -28,15 +28,24 @@ C.  Optional
 
 ## Module Design Choices
 
-- v1.0
-  - PCB
-    - 2 layer
-    - Test pads on user visible side (satisfies A6)
-    - 20x35mm form factor (satisfies A1)
-    - Silk screen on user visible side with checkable baud rate options
-  - Connectors
-    - UFL Antenna connector (satisfies A5)
-    - 2.54mm pitch header with VCC, GND, UART, PPS and I2C (satisfies C2)
-  - Battery backup with 6.8mm SDM 3V rechargeable lithium cell (satisfies B2)
-  - GPS Module : [u-blox MAX-M10](https://www.u-blox.com/en/product/max-m10-series?legacy=Current#Documentation-&-resources) (can satisfy A1, A2, A3 with regulator, A4, B1, B2, B3 and C1)
-  - LEDs on user visible side (satisfies C3 and C4)
+### v1.0
+
+- PCB
+  - 2 layer
+  - Test pads on user visible side (satisfies A6)
+  - 20x35mm form factor (satisfies A1)
+  - Silk screen on user visible side with checkable baud rate options
+- Connectors
+  - UFL Antenna connector (satisfies A5)
+  - 2.54mm pitch header with VCC, GND, UART, PPS and I2C (satisfies C2)
+- Battery backup with 6.8mm SDM 3V rechargeable lithium cell (satisfies B2)
+- GPS Module : [u-blox MAX-M10](https://www.u-blox.com/en/product/max-m10-series?legacy=Current#Documentation-&-resources) (can satisfy A1, A2, A3 with regulator, A4, B1, B2, B3 and C1)
+- LEDs on user visible side (satisfies C3 and C4)
+- No antenna short circuit detection (does not satisfy B3 or C1)
+- Constant 5V antenna supply (satisfies A4, but not B1)
+
+Specific components
+
+- [u-blox MAX-M10](https://www.u-blox.com/en/product/max-m10-series?legacy=Current#Documentation-&-resources)
+- Battery : [SEIKO INSTRUMENTS MS518SE-FL35E](https://www.farnell.com/datasheets/3115182.pdf) ([Farnell](https://be.farnell.com/en-BE/seiko-instruments/ms518se-fl35e/battery-button-lithium-3-4mah/dp/3534575))
+- U.FL : [HIROSE(HRS) U.FL-R-SMT-1(10)](https://www.farnell.com/datasheets/2691132.pdf) ([Farnell](https://be.farnell.com/en-BE/hirose-hrs/u-fl-r-smt-1-10/rf-coaxial-u-fl-straight-jack/dp/1688077))
