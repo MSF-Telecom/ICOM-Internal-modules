@@ -4,8 +4,8 @@ A collection of custom internal modules for ICOM IC-F5060/6060 radios.
 
 ## Pinouts
 
-The IC-F5060/6060 and IC-F3162T radios have two 20-pin accessory connectors (J1 and J2). They mate with a [Panasonic P5 Series P5K AXK640347YG](https://na.industrial.panasonic.com/products/connectors/board-board-connectors/lineup/narrow-fine-pitch-connectors/series/82696/model/83045) connector.  
-You can find a KiCAD Library for J1 and J2 [here](./CAD-Libs/ICOM-J1-J2). The pinouts are as follows (from the service manual) :
+The IC-F5060/6060 and IC-F3162T radios have two 40-pin accessory connectors (J1 and J2). They mate with a [Panasonic P5 Series P5K AXK640347YG](https://na.industrial.panasonic.com/products/connectors/board-board-connectors/lineup/narrow-fine-pitch-connectors/series/82696/model/83045) connector.  
+You can find a KiCAD Library for J1 and J2 to make your own modules [here](./CAD-Libs/ICOM-J1-J2). The pinouts are as follows (from the service manual) :
 
 ### J1
 
