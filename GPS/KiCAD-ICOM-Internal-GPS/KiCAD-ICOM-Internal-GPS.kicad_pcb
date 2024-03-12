@@ -132,11 +132,11 @@
 	(net 43 "PPS")
 	(net 44 "V-BACKUP")
 	(net 45 "SCL")
-	(net 46 "EXTINT")
-	(net 47 "SDA")
-	(net 48 "+3.3V")
-	(net 49 "ANT-RF")
-	(net 50 "unconnected-(U1-LNA_EN-Pad13)")
+	(net 46 "SDA")
+	(net 47 "+3.3V")
+	(net 48 "ANT-RF")
+	(net 49 "unconnected-(U1-LNA_EN-Pad13)")
+	(net 50 "unconnected-(U1-EXTINT-Pad5)")
 	(footprint "ICOM-J1-J2:ICOM-J1-J2"
 		(layer "F.Cu")
 		(uuid "5f88e043-2abf-48aa-af28-e22422cafb27")
@@ -890,10 +890,10 @@
 		(at 147.066 102.108 -90)
 		(tags "MAX-M10M-00B ")
 		(property "Reference" "U1"
-			(at 0 0 -90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "2a8639da-ef75-4f29-87fe-9175c575ac3c")
+			(uuid "c5011b02-be89-4990-b8fb-52fbf6be63e7")
 			(effects
 				(font
 					(size 1 1)
@@ -905,7 +905,8 @@
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "3f61f97a-8d7b-4f24-addc-5b1f9377c14f")
+			(hide yes)
+			(uuid "484710f2-1ce8-4c32-8c3b-df1231b1878d")
 			(effects
 				(font
 					(size 1 1)
@@ -918,7 +919,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "302d27bb-e047-4060-a585-cd814418afb1")
+			(uuid "102c4de3-83f3-433e-ba9b-9c685a30f2c6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,7 +931,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be7b650d-4836-4d4c-ada9-f8a9d758e55d")
+			(uuid "a0350804-58de-4db3-9dad-72745d01771c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +943,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe6ca5bd-678d-48a4-a7ca-f23759430df3")
+			(uuid "92018f71-009c-4d96-9d59-31490dd2b50b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +963,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f23d96e7-d272-4da6-961b-d2671e95c4ad")
+			(uuid "a7aeadac-c222-432e-be9a-2dd200bcb6f3")
 		)
 		(fp_line
 			(start 4.9784 -5.1816)
@@ -972,7 +973,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "953ba1d6-da93-47a2-98fa-912d98650d99")
+			(uuid "3f66a1aa-2a87-415e-aab0-3d2bdcc55081")
 		)
 		(fp_circle
 			(center -6.307 -4.4)
@@ -983,7 +984,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "ae24c911-a410-40d6-8352-2963a7112fcb")
+			(uuid "9bc356ad-391e-41dd-8e2f-de8c1604e250")
 		)
 		(fp_line
 			(start -5.1054 5.3086)
@@ -993,7 +994,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "aba1ff57-a2aa-4bea-865c-d02e4f028d36")
+			(uuid "9a59feb7-3ac3-496e-9d49-40dfc50c176e")
 		)
 		(fp_line
 			(start 5.1054 5.3086)
@@ -1003,7 +1004,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "489ddfd7-e0e6-4865-a06b-daaf5e73b948")
+			(uuid "57632f6d-0711-40d5-ad8f-2a21322c5ea5")
 		)
 		(fp_line
 			(start -5.4102 5.0731)
@@ -1013,7 +1014,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "177b7525-41ac-475e-aeb2-5ae2894647a7")
+			(uuid "6a5cda65-3ce0-4a23-9b06-9b6d90d77069")
 		)
 		(fp_line
 			(start -5.4102 5.0731)
@@ -1023,7 +1024,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3c3d1989-adad-4c5d-bd9b-f2e6bb55d64e")
+			(uuid "05ff1853-2abb-40d0-ad03-fbeb60d313d5")
 		)
 		(fp_line
 			(start 5.1054 5.0731)
@@ -1033,7 +1034,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6036e16e-38d0-461a-b091-74174a96716c")
+			(uuid "2771e43c-d9fb-4c45-ae75-8caf132326e9")
 		)
 		(fp_line
 			(start 5.4102 5.0731)
@@ -1043,7 +1044,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "482437fe-46dd-4d91-b355-1ec5d2fb95c4")
+			(uuid "d90f4240-9fe5-4738-8fbc-58afadb1898b")
 		)
 		(fp_line
 			(start -5.4102 -5.0731)
@@ -1053,7 +1054,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d77539cd-ba73-4458-9435-0bced81e6d5f")
+			(uuid "30747ef9-21bf-4065-86a0-872a445e3adc")
 		)
 		(fp_line
 			(start -5.1054 -5.0731)
@@ -1063,7 +1064,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1a8145ae-0a9c-4668-ac34-69baa598a7c5")
+			(uuid "3a1db34a-6e83-4e2c-aaab-32d32c81b165")
 		)
 		(fp_line
 			(start 5.4102 -5.0731)
@@ -1073,7 +1074,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "be029c3b-86f3-4b06-b3e0-c9fd0d548877")
+			(uuid "29ab85da-48cb-4b17-98cb-6f354a3b7c37")
 		)
 		(fp_line
 			(start 5.4102 -5.0731)
@@ -1083,7 +1084,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3c882708-e2e1-40e2-a875-8dc63f6b6084")
+			(uuid "44a6e3ef-414a-4429-ba91-6a32abecafb8")
 		)
 		(fp_line
 			(start -5.1054 -5.3086)
@@ -1093,7 +1094,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1a66971b-41f0-4800-b6b6-07bab5c12375")
+			(uuid "63642f5d-9f57-406b-a28c-1bf0627c6e1d")
 		)
 		(fp_line
 			(start 5.1054 -5.3086)
@@ -1103,7 +1104,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4ad73aac-d1a6-4580-907e-198e110eb969")
+			(uuid "d5a3da10-e025-46d8-bc64-b3027d5bde79")
 		)
 		(fp_line
 			(start -4.8514 5.0546)
@@ -1113,7 +1114,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "919adced-1954-4afe-95d4-77e5485acb41")
+			(uuid "e6dc4142-d565-4e29-a3da-31632a41ac1c")
 		)
 		(fp_line
 			(start 4.8514 5.0546)
@@ -1123,7 +1124,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7f84edee-cbd2-4c10-946b-5ab2bda9cc0c")
+			(uuid "306d6733-e89a-4c06-803b-15e079a94692")
 		)
 		(fp_line
 			(start -4.8514 -5.0546)
@@ -1133,7 +1134,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6d770772-8f15-46c6-956a-7b52a5c47f7b")
+			(uuid "1cd22b16-d6de-4bcb-97dd-2d53ee3e3701")
 		)
 		(fp_line
 			(start 4.8514 -5.0546)
@@ -1143,7 +1144,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e484d3a7-8c94-450b-b615-e05b34e85431")
+			(uuid "de8daf4a-7f47-4f8a-9e8b-db0055f743e0")
 		)
 		(fp_arc
 			(start 0.3048 -5.0546)
@@ -1154,7 +1155,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "723a5d96-0895-41d2-be28-aae3f8c3433f")
+			(uuid "ded8233c-8341-4e3d-8db2-5996cdfdc6dd")
 		)
 		(fp_circle
 			(center -3.7592 -4.4)
@@ -1165,19 +1166,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "3ed24813-1b9f-47ab-9bd9-a83f7dc7b41f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "c1c4bc96-f09e-403f-96bd-a174ea0f7944")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "e0aa93c4-06fd-4796-9fe5-b49f472c45d7")
 		)
 		(pad "1" smd rect
 			(at -4.4577 -4.399999 270)
@@ -1186,7 +1175,7 @@
 			(net 40 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "60bd543a-1b0b-4a47-a5a4-9a1266124257")
+			(uuid "78394367-fac1-4ebb-9eef-ccb8faa6ca50")
 		)
 		(pad "2" smd rect
 			(at -4.4577 -3.300001 270)
@@ -1195,7 +1184,7 @@
 			(net 39 "GPS-TX")
 			(pinfunction "TXD")
 			(pintype "output")
-			(uuid "4733d7ad-527e-448f-bdb9-09c625794b34")
+			(uuid "4c9cf95a-b36f-4b4b-82fd-c43bf3a4d66b")
 		)
 		(pad "3" smd rect
 			(at -4.4577 -2.200001 270)
@@ -1204,7 +1193,7 @@
 			(net 41 "GPS-RX")
 			(pinfunction "RXD")
 			(pintype "input")
-			(uuid "4f3b10a5-2d99-4129-918e-d0c33abf7fe0")
+			(uuid "a088e4e2-ec37-4aa7-ad6a-c0b23393388c")
 		)
 		(pad "4" smd rect
 			(at -4.4577 -1.1 270)
@@ -1213,16 +1202,16 @@
 			(net 43 "PPS")
 			(pinfunction "TIMEPULSE")
 			(pintype "output")
-			(uuid "403c3887-5b0d-46fb-9c73-8e4447e2e2ea")
+			(uuid "d7720684-9df9-469c-b864-cb9ce8cac4ff")
 		)
 		(pad "5" smd rect
 			(at -4.4577 0 270)
 			(size 1.397 0.8382)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 46 "EXTINT")
+			(net 50 "unconnected-(U1-EXTINT-Pad5)")
 			(pinfunction "EXTINT")
-			(pintype "input")
-			(uuid "9ebd3727-1176-4532-b60d-cfcf469caaa0")
+			(pintype "input+no_connect")
+			(uuid "111e56bc-ea62-4950-8ad2-1761546289e3")
 		)
 		(pad "6" smd rect
 			(at -4.4577 1.1 270)
@@ -1231,25 +1220,25 @@
 			(net 44 "V-BACKUP")
 			(pinfunction "V_BCKP")
 			(pintype "power_in")
-			(uuid "582e9aef-257f-4787-87ab-fd1fdd899133")
+			(uuid "be939c7f-6d7c-40a4-b318-4d8874cd4d41")
 		)
 		(pad "7" smd rect
 			(at -4.4577 2.200001 270)
 			(size 1.397 0.8382)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 48 "+3.3V")
+			(net 47 "+3.3V")
 			(pinfunction "V_IO")
 			(pintype "power_in")
-			(uuid "e7282bf2-e03d-48cf-9fc1-579c890a284f")
+			(uuid "24d0d99d-b78f-4b46-9d1f-bde79f3f3d3b")
 		)
 		(pad "8" smd rect
 			(at -4.4577 3.300001 270)
 			(size 1.397 0.8382)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 48 "+3.3V")
+			(net 47 "+3.3V")
 			(pinfunction "VCC")
 			(pintype "power_in")
-			(uuid "6039a02e-9eff-451b-94da-ea37b286b9b0")
+			(uuid "327cc1ac-f812-40b1-8b45-32dba7154057")
 		)
 		(pad "9" smd rect
 			(at -4.4577 4.400001 270)
@@ -1258,7 +1247,7 @@
 			(net 42 "RESET")
 			(pinfunction "RESET_N")
 			(pintype "input")
-			(uuid "5af7fb83-7889-461e-85d2-38a59e10d130")
+			(uuid "bf7a47bd-a93d-4e19-a263-3851fa0410a1")
 		)
 		(pad "10" smd rect
 			(at 4.4577 4.399999 270)
@@ -1267,16 +1256,16 @@
 			(net 40 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "1f11537a-4210-447d-907b-b4f9063581b0")
+			(uuid "bc9bc82f-ea06-40b1-a578-0546a52ca15e")
 		)
 		(pad "11" smd rect
 			(at 4.4577 3.300001 270)
 			(size 1.397 0.8382)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 49 "ANT-RF")
+			(net 48 "ANT-RF")
 			(pinfunction "RF_IN")
 			(pintype "input")
-			(uuid "f8db339a-8de5-4c8d-acf9-03e697d8ed72")
+			(uuid "faafeed1-45c1-4fc4-8fa0-6502f3924952")
 		)
 		(pad "12" smd rect
 			(at 4.4577 2.200001 270)
@@ -1285,16 +1274,16 @@
 			(net 40 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "20d53b65-2e04-4e76-84e7-382f461fb805")
+			(uuid "0aa905a8-17e6-4e02-a705-1dda0d1aaa2a")
 		)
 		(pad "13" smd rect
 			(at 4.4577 1.1 270)
 			(size 1.397 0.8382)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 50 "unconnected-(U1-LNA_EN-Pad13)")
+			(net 49 "unconnected-(U1-LNA_EN-Pad13)")
 			(pinfunction "LNA_EN")
 			(pintype "output+no_connect")
-			(uuid "db472446-1d06-4738-9adb-9dcc8c7a07cd")
+			(uuid "60c14f93-88e7-4939-ae5f-01b79e143dc2")
 		)
 		(pad "14" smd rect
 			(at 4.4577 0 270)
@@ -1302,8 +1291,8 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 1 "unconnected-(U1-VCC_RF-Pad14)")
 			(pinfunction "VCC_RF")
-			(pintype "output")
-			(uuid "751f5237-6071-4077-8be3-026468a4452d")
+			(pintype "output+no_connect")
+			(uuid "e0f88158-08ae-4266-a2c8-8e2620b9adf5")
 		)
 		(pad "15" smd rect
 			(at 4.4577 -1.1 270)
@@ -1311,17 +1300,17 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 2 "unconnected-(U1-VIO_SEL-Pad15)")
 			(pinfunction "VIO_SEL")
-			(pintype "input")
-			(uuid "0acdeb10-d713-4258-9dab-64bf8f3b18f9")
+			(pintype "input+no_connect")
+			(uuid "aff2e7f4-77b3-4e92-99b8-fc2c52aeb415")
 		)
 		(pad "16" smd rect
 			(at 4.4577 -2.200001 270)
 			(size 1.397 0.8382)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 47 "SDA")
+			(net 46 "SDA")
 			(pinfunction "SDA")
 			(pintype "bidirectional")
-			(uuid "8f25fb2f-15d6-4ca2-92b5-0b004d4cd3c1")
+			(uuid "9efbf9b1-ec31-421f-bed1-375b4d26c0d5")
 		)
 		(pad "17" smd rect
 			(at 4.4577 -3.300001 270)
@@ -1330,7 +1319,7 @@
 			(net 45 "SCL")
 			(pinfunction "SCL")
 			(pintype "input")
-			(uuid "cbf8330e-22fb-468f-95ea-1263ea3e5ff6")
+			(uuid "287f8862-52d5-4b8d-bbdb-41b688589708")
 		)
 		(pad "18" smd rect
 			(at 4.4577 -4.400001 270)
@@ -1338,8 +1327,8 @@
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 3 "unconnected-(U1-SAFEBOOT_N-Pad18)")
 			(pinfunction "SAFEBOOT_N")
-			(pintype "input")
-			(uuid "dfe9455f-3e77-4007-b0ec-af66a72ea0e0")
+			(pintype "input+no_connect")
+			(uuid "be979728-cf6f-449f-bddc-688fd7527f95")
 		)
 		(model "/Users/fredericdruppel/Documents/Documents Importants/Taff/MSF/MSF-Telecom-GitHub/ICOM-Internal-Modules/CAD-Libs/UBX-MAX-M10S/MOD18_MAX-M10M_UBL.step"
 			(offset
@@ -1358,7 +1347,7 @@
 		(uuid "c790a803-b90a-4230-aace-15e4adf93194")
 		(at 154.178 93.218 180)
 		(property "Reference" "B1"
-			(at 0 -3.4925 180)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "532c2978-5652-4481-a633-3e4213b5538a")
 			(effects
@@ -1371,6 +1360,7 @@
 		(property "Value" "MS518SE"
 			(at 0 0 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8c704388-7b94-455b-b267-721560ac1b8d")
 			(effects
 				(font
@@ -1661,7 +1651,7 @@
 		(uuid "fc461c62-bb65-497d-a50b-c9aced8a8d45")
 		(at 143.764 111.627 180)
 		(property "Reference" "J2"
-			(at -0.060105 -2.311695 180)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "5ad9ee47-9ae4-4158-bede-e3fa9df0dfa3")
 			(effects
@@ -1674,6 +1664,7 @@
 		(property "Value" "U.FL-R-SMT-1_10_"
 			(at 7.5777 3.09926 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b4830d3b-9032-4940-b62e-c8e6cb57701a")
 			(effects
 				(font
@@ -2062,7 +2053,7 @@
 			(at 0 1.525 180)
 			(size 1 1.05)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 49 "ANT-RF")
+			(net 48 "ANT-RF")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "8c2f91fd-268a-48ed-b973-1affe2fe1930")
