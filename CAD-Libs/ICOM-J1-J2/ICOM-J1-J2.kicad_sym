@@ -24,7 +24,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "AXK640347YG"
+		(property "Footprint" "ICOM-J1-J2:ICOM-J1-J2"
 			(at 19.05 -94.92 0)
 			(effects
 				(font
@@ -861,7 +861,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "AXK640347YG"
+		(property "Footprint" "ICOM-J1-J2:ICOM-J1-J2"
 			(at 19.05 -94.92 0)
 			(effects
 				(font

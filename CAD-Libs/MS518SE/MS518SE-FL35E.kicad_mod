@@ -1,0 +1,141 @@
+(footprint "MS518SE-FL35E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.4925 0)
+		(layer "F.SilkS")
+		(uuid "df741789-2681-4808-af6e-8c85cf1f1fbc")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MS518SE-FL35E"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "65ff7653-39da-4658-83f4-eaddb6be5f95")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4004404e-aae9-4c80-b07d-f76f4284f8a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20f5db7d-22fc-4835-8579-66535929374b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b06968a9-df2c-4e00-a2b4-980d057990f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1)
+		(end 3.508 -1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40fd9d12-4d80-42d3-a28d-92184fb898a5")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c4272c7-43f9-4db6-885d-17012dd3108e")
+	)
+	(fp_line
+		(start 3.508 -1)
+		(end 3.508 1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "624abb61-07f5-4a60-b572-db8bd7896c35")
+	)
+	(fp_line
+		(start 3.508 1)
+		(end -1 1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cebc5f13-dbfa-4049-9cf4-a158871f0929")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.9 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "faacb170-012f-4ea3-ab60-d8be824f49ef")
+	)
+	(pad "+" smd rect
+		(at 4.2 -0.75)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1d0098cb-692a-4fda-a726-e6cff0d266fd")
+	)
+	(pad "-" smd rect
+		(at 4.2 0.75)
+		(size 1.8 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2a346080-ab72-42f7-a601-7bc8a73f675e")
+	)
+	(model "/Users/fredericdruppel/Documents/Documents Importants/Taff/MSF/MSF-Telecom-GitHub/ICOM-Internal-Modules/CAD-Libs/MS518SE/MS518SE FL35E.step"
+		(offset
+			(xyz 0 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

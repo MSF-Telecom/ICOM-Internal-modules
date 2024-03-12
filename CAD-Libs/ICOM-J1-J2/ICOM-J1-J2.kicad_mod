@@ -1,4 +1,4 @@
-(footprint "ICOM-J1"
+(footprint "ICOM-J1-J2"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -545,5 +545,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "e57b3092-67d9-4837-ad40-0481eef5037b")
+	)
+	(model "/Users/fredericdruppel/Documents/Documents Importants/Taff/MSF/MSF-Telecom-GitHub/ICOM-Internal-Modules/CAD-Libs/ICOM-J1-J2/ICOM-J1-J2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
 	)
 )
