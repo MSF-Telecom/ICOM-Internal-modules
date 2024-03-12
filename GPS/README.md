@@ -22,7 +22,7 @@ B.  Nice to have
 C.  Optional
 
   1. Antenna connection detection
-  2. 2.54mm pitch header with VCC, GND, UART, PPS and I2C
+  2. Additional 2.54mm pitch header with VCC, GND, UART, PPS and I2C
   3. PPS LED
   4. TX/RX LEDs
 
@@ -32,9 +32,11 @@ C.  Optional
   - PCB
     - 2 layer
     - Test pads on user visible side (satisfies A6)
+    - 20x35mm form factor (satisfies A1)
+    - Silk screen on user visible side with checkable baud rate options
   - Connectors
     - UFL Antenna connector (satisfies A5)
     - 2.54mm pitch header with VCC, GND, UART, PPS and I2C (satisfies C2)
   - Battery backup with 6.8mm SDM 3V rechargeable lithium cell (satisfies B2)
-  - GPS Module : [u-blox MAX-M10](https://www.u-blox.com/en/product/max-m10-series?legacy=Current#Documentation-&-resources) (satisfies A1, A2, A3 with regulator, A4, B1, B2, B3 and C1)
+  - GPS Module : [u-blox MAX-M10](https://www.u-blox.com/en/product/max-m10-series?legacy=Current#Documentation-&-resources) (can satisfy A1, A2, A3 with regulator, A4, B1, B2, B3 and C1)
   - LEDs on user visible side (satisfies C3 and C4)
