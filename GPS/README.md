@@ -51,3 +51,4 @@ Specific components
 - U.FL : [HIROSE(HRS) U.FL-R-SMT-1(10)](https://www.farnell.com/datasheets/2691132.pdf) ([Farnell](https://be.farnell.com/en-BE/hirose-hrs/u-fl-r-smt-1-10/rf-coaxial-u-fl-straight-jack/dp/1688077))
 - C1 (Antenna supply filter, 10nF, 16V, X7R) : [KEMET C0603C103M5RAC7411](https://4donline.ihs.com/images/VipMasterIC/IC/KEME/KEME-S-A0018902345/KEME-S-A0018902501-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0)
 - L1 (Antenna supply inductor, 27nH) : [Murata LQG15HS27NJ02D](https://www.mouser.be/datasheet/2/281/1/JELF243B_0010-1699614.pdf)
+- 3.3V Regulator : [TC2015-3.3V](https://www.mouser.be/datasheet/2/268/MCHPS04285_1-2520951.pdf)
