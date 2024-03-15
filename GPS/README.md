@@ -49,3 +49,5 @@ Specific components
 - [u-blox MAX-M10](https://www.u-blox.com/en/product/max-m10-series?legacy=Current#Documentation-&-resources)
 - Battery : [SEIKO INSTRUMENTS MS518SE-FL35E](https://www.farnell.com/datasheets/3115182.pdf) ([Farnell](https://be.farnell.com/en-BE/seiko-instruments/ms518se-fl35e/battery-button-lithium-3-4mah/dp/3534575))
 - U.FL : [HIROSE(HRS) U.FL-R-SMT-1(10)](https://www.farnell.com/datasheets/2691132.pdf) ([Farnell](https://be.farnell.com/en-BE/hirose-hrs/u-fl-r-smt-1-10/rf-coaxial-u-fl-straight-jack/dp/1688077))
+- C1 (Antenna supply filter, 10nF, 16V, X7R) : [KEMET C0603C103M5RAC7411](https://4donline.ihs.com/images/VipMasterIC/IC/KEME/KEME-S-A0018902345/KEME-S-A0018902501-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0)
+- L1 (Antenna supply inductor, 27nH) : [Murata LQG15HS27NJ02D](https://www.mouser.be/datasheet/2/281/1/JELF243B_0010-1699614.pdf)
