@@ -1,0 +1,228 @@
+(footprint "LED320X125X130N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.98503 -1.304562 0)
+		(layer "F.SilkS")
+		(uuid "c51d6478-7cfc-4b25-b204-e0324d57ad74")
+		(effects
+			(font
+				(size 0.320334 0.320334)
+				(thickness 0.080084)
+			)
+		)
+	)
+	(property "Value" "LED320X125X130N"
+		(at 1.049113 1.298175 0)
+		(layer "F.Fab")
+		(uuid "821cfdaf-569b-4cfd-a074-e5eacafe4a21")
+		(effects
+			(font
+				(size 0.320339 0.320339)
+				(thickness 0.080085)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e5b6564-a35a-4007-9553-8228ca9313a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21d338de-41fe-40c5-a487-91795f38cb66")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da698411-5ae3-4fac-b929-1f9d317dff1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "291bbd5f-5b98-4d75-9f1d-edadfa55106e")
+	)
+	(fp_line
+		(start -2 1)
+		(end -2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "6ee70ec1-528e-4bbd-8349-b76f0375abc4")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "41ccb54e-4678-4b59-80d5-f49f741b3c58")
+	)
+	(fp_line
+		(start 2 1)
+		(end -2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "aa93c8c4-74c0-448d-bc6c-8ab84693d6b3")
+	)
+	(fp_line
+		(start -2 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6dbfb8d3-703d-4028-88f2-85b055a7cbbe")
+	)
+	(fp_line
+		(start -2 1)
+		(end -2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a2a0fcd-c3c8-4a06-8455-799e19675929")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dff60c55-af1e-4dfb-8998-203aa1041977")
+	)
+	(fp_line
+		(start 2 1)
+		(end -2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4edff5fe-f252-443c-bfc7-71790c36ee0e")
+	)
+	(fp_line
+		(start -1.6 -0.625)
+		(end 1.6 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a187f8c5-4491-4a11-8d7a-337b165b9db0")
+	)
+	(fp_line
+		(start -1.6 0.625)
+		(end -1.6 -0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3f3d0c5-d443-47bf-981d-89cb47988b64")
+	)
+	(fp_line
+		(start 1.6 -0.625)
+		(end 1.6 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d32bc3df-2985-4063-8f24-75d17713e4e6")
+	)
+	(fp_line
+		(start 1.6 0.625)
+		(end -1.6 0.625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a9cc494-57cf-41fd-8444-b0618da89cee")
+	)
+	(fp_text user "K"
+		(at -2.05184 0.150134 0)
+		(layer "F.SilkS")
+		(uuid "1b0221cd-1c3d-4d94-93fb-4708fadaed04")
+		(effects
+			(font
+				(size 0.320287 0.320287)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole rect
+		(at 0 0)
+		(size 1.6 1.4)
+		(drill 2.15)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "46bcf227-030e-4c77-98b9-9e54226c823c")
+	)
+	(pad "1" smd rect
+		(at 1.45 0 90)
+		(size 1.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a43b7d3b-451a-4e35-b1b8-c8d7e625e242")
+	)
+	(pad "2" smd rect
+		(at -1.45 0 90)
+		(size 1.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "670739b4-bc2b-4a76-af40-331a4a0559cc")
+	)
+	(model "/Users/fredericdruppel/Documents/Documents Importants/Taff/MSF/MSF-Telecom-GitHub/ICOM-Internal-Modules/CAD-Libs/KINGBRIGHT KPTR-3216SURCK/KPTR-3216SURCK.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
