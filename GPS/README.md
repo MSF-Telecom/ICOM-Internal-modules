@@ -65,12 +65,13 @@ C.  Optional
 
 #### Cost breakdown
 
-> Cost for one unit at 100pcs MOQ
+> Cost for one unit at 100pcs MOQ, without PCBA
 
 ##### Full prototype with debug LEDs
 
 | Component                                  | Source | Cost ($) | Amount | Total ($) |
 |--------------------------------------------|--------|----------|--------|-----------|
+| PCB                                        | JLCPCB | 0.141    | 1      | 0.141     |
 | LQG15HS27NJ02DLQG15HS27NJ02D 27nH inductor | LCSC   | 0.0065   | 1      | 0.0065    |
 | U.FL-R-SMT-1(10) UFL connector             | LCSC   | 0.0.1177 | 1      | 0.1615    |
 | SPX5205M5-L-3-3/TR 3.3V LDO regulator      | LCSC   | 0.1209   | 1      | 0.1209    |
@@ -87,12 +88,13 @@ C.  Optional
 | XL-3216SURC Red LED                        | LCSC   | 0.0082   | 1      | 0.0082    |
 | XL-3216UOC Orange LED                      | LCSC   | 0.0092   | 2      | 0.0184    |
 |                                            |        |          |        |           |
-| **Total**                                  |        |          |        | 15.7356   |
+| **Total**                                  |        |          |        | 15.8766   |
 
 ##### Integration prototype with battery backup
 
 | Component                                  | Source | Cost ($) | Amount | Total ($) |
 |--------------------------------------------|--------|----------|--------|-----------|
+| PCB                                        | JLCPCB | 0.141    | 1      | 0.141     |
 | LQG15HS27NJ02DLQG15HS27NJ02D 27nH inductor | LCSC   | 0.0065   | 1      | 0.0065    |
 | U.FL-R-SMT-1(10) UFL connector             | LCSC   | 0.0.1177 | 1      | 0.1615    |
 | SPX5205M5-L-3-3/TR 3.3V LDO regulator      | LCSC   | 0.1209   | 1      | 0.1209    |
@@ -107,12 +109,13 @@ C.  Optional
 | MS518SE-FL35E Battery                      | Farnell| 2.15     | 1      | 2.15      |
 | RB551V-40 Diode                            | LCSC   | 0.018    | 1      | 0.018     |
 |                                            |        |          |        |           |
-| **Total**                                  |        |          |        | 15.706    |
+| **Total**                                  |        |          |        | 15.847    |
 
 ##### Integration prototype without battery backup
 
 | Component                                  | Source | Cost ($) | Amount | Total ($) |
 |--------------------------------------------|--------|----------|--------|-----------|
+| PCB                                        | JLCPCB | 0.141    | 1      | 0.141     |
 | LQG15HS27NJ02DLQG15HS27NJ02D 27nH inductor | LCSC   | 0.0065   | 1      | 0.0065    |
 | U.FL-R-SMT-1(10) UFL connector             | LCSC   | 0.0.1177 | 1      | 0.1615    |
 | SPX5205M5-L-3-3/TR 3.3V LDO regulator      | LCSC   | 0.1209   | 1      | 0.1209    |
@@ -125,4 +128,4 @@ C.  Optional
 | MAX-M10S-00B GPS module                    | Mouser | 11.48    | 1      | 11.48     |
 | AXK640347YG Connector                      | Mouser | 1.60     | 1      | 1.60      |
 |                                            |        |          |        |           |
-| **Total**                                  |        |          |        | 13.5277   |
+| **Total**                                  |        |          |        | 13.6687   |
