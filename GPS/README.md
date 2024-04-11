@@ -89,7 +89,6 @@ C.  Optional
 |                                            |        |          |        |           |
 | **Total**                                  |        |          |        | 15.7356   |
 
-
 ##### Integration prototype with battery backup
 
 | Component                                  | Source | Cost ($) | Amount | Total ($) |
